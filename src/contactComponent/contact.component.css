@@ -1,0 +1,55 @@
+.contact{
+    background:linear-gradient(to bottom,rgb(108, 7, 190),rgba(122, 8, 214, 0.884));
+    padding: 2%;
+    text-align: center;
+}
+
+form{
+    margin-top: 15%;
+    margin-bottom: 15%;
+
+}
+
+form  h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+form div{
+    text-align: left;
+    padding-left: 12%;
+    color: white;
+}
+
+select,option{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    background:linear-gradient(to bottom,rgb(108, 7, 190),rgba(122, 8, 214, 0.884));
+}
+
+button{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(122, 102, 216);
+    color: rgb(253, 253, 253);
+    letter-spacing: 1px;
+}
+
+textarea{
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    background:linear-gradient(to bottom,rgb(108, 7, 190),rgba(122, 8, 214, 0.884));
+}
+
+
+input{
+    width:80%;
+    border-radius: 10px;
+    outline: none;
+    background:linear-gradient(to bottom,rgb(108, 7, 190),rgba(122, 8, 214, 0.884));
+    border: 1px solid rgb(230, 230, 238);
+    height: 30px;
+}

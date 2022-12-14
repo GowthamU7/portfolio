@@ -1,0 +1,35 @@
+.logo{
+    width: 35px;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    height: 55px;
+    justify-content: space-between;
+}
+
+.social_connect{
+    margin-left: 10%;
+    margin-top: 0.7%;
+}
+
+.other_links{
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.other_links nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    margin-right: 20px;
+}
