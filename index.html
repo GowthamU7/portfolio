@@ -1,0 +1,577 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gowtham Sankar Sai — Portfolio</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Optional: smooth fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; }
+  </style>
+</head>
+
+<body class="bg-white text-slate-900">
+  <!-- Top bar -->
+  <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/80 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+      <a href="#top" class="flex items-center gap-2">
+        <div class="h-9 w-9 rounded-xl bg-slate-900 text-white grid place-items-center font-bold">G</div>
+        <div class="leading-tight">
+          <div class="font-semibold">Gowtham Sankar Sai</div>
+          <div class="text-xs text-slate-500">Data Engineering • Backend • Cloud</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-6 text-sm text-slate-600">
+        <a class="hover:text-slate-900" href="#projects">Projects</a>
+        <a class="hover:text-slate-900" href="#skills">Skills</a>
+        <a class="hover:text-slate-900" href="#experience">Experience</a>
+        <a class="hover:text-slate-900" href="#contact">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a id="resumeLinkTop" href="#" class="hidden sm:inline-flex rounded-xl border border-slate-300 px-3 py-2 text-sm font-medium hover:bg-slate-50">
+          Resume
+        </a>
+        <a href="#contact" class="inline-flex rounded-xl bg-slate-900 px-3 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+          Let’s talk
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="relative">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <div class="grid gap-10 md:grid-cols-12 md:items-center">
+        <div class="md:col-span-7">
+          <p class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-700">
+            Open to Internship / New Grad • 2026
+            <span class="h-1 w-1 rounded-full bg-slate-400"></span>
+            USA (F-1 / OPT)
+          </p>
+
+          <h1 class="mt-4 text-4xl font-bold tracking-tight md:text-5xl">
+            I build <span class="underline decoration-slate-300 underline-offset-8">reliable data pipelines</span> and
+            <span class="underline decoration-slate-300 underline-offset-8">production-ready web apps</span>.
+          </h1>
+
+          <p class="mt-4 text-slate-600 leading-relaxed">
+            I’m a Master’s student in Computer Science at Southeast Missouri State University. I focus on
+            data engineering (Airflow/dbt/SQL/Python) and backend/full-stack development (Node/React),
+            with a strong bias for clean architecture, testing, and shipping.
+          </p>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#projects" class="rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-slate-800">
+              View projects
+            </a>
+            <a id="githubLinkHero" href="#" class="rounded-xl border border-slate-300 px-4 py-2.5 text-sm font-semibold hover:bg-slate-50">
+              GitHub
+            </a>
+            <a id="linkedinLinkHero" href="#" class="rounded-xl border border-slate-300 px-4 py-2.5 text-sm font-semibold hover:bg-slate-50">
+              LinkedIn
+            </a>
+          </div>
+
+          <div class="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
+            <div class="rounded-2xl border border-slate-200 p-4">
+              <div class="text-sm font-semibold">Pipeline mindset</div>
+              <div class="mt-1 text-sm text-slate-600">ingest → transform → model → validate → deliver</div>
+            </div>
+            <div class="rounded-2xl border border-slate-200 p-4">
+              <div class="text-sm font-semibold">Cloud-ready</div>
+              <div class="mt-1 text-sm text-slate-600">Docker + AWS patterns</div>
+            </div>
+            <div class="rounded-2xl border border-slate-200 p-4">
+              <div class="text-sm font-semibold">Product thinking</div>
+              <div class="mt-1 text-sm text-slate-600">UX + metrics + reliability</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:col-span-5">
+          <div class="rounded-3xl border border-slate-200 bg-gradient-to-b from-slate-50 to-white p-6 shadow-sm">
+            <div class="flex items-center gap-3">
+              <div class="h-14 w-14 rounded-2xl bg-slate-900 text-white grid place-items-center text-xl font-bold">GS</div>
+              <div>
+                <div class="text-lg font-semibold">Gowtham Sankar Sai</div>
+                <div class="text-sm text-slate-600">MS CS • Southeast Missouri State University</div>
+              </div>
+            </div>
+
+            <div class="mt-6 space-y-3 text-sm text-slate-700">
+              <div class="flex items-start gap-3">
+                <span class="mt-1 inline-block h-2 w-2 rounded-full bg-slate-900"></span>
+                <p><span class="font-semibold">Focus:</span> Data Engineering, Backend Development, Cloud</p>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="mt-1 inline-block h-2 w-2 rounded-full bg-slate-900"></span>
+                <p><span class="font-semibold">Strengths:</span> SQL modeling, orchestration, API design, documentation</p>
+              </div>
+              <div class="flex items-start gap-3">
+                <span class="mt-1 inline-block h-2 w-2 rounded-full bg-slate-900"></span>
+                <p><span class="font-semibold">Currently building:</span> portfolio-grade systems with real-world architecture</p>
+              </div>
+            </div>
+
+            <div class="mt-6 rounded-2xl border border-slate-200 bg-white p-4">
+              <div class="text-xs font-semibold text-slate-500">QUICK LINKS</div>
+              <div class="mt-3 grid grid-cols-2 gap-2 text-sm">
+                <a id="emailQuick" href="#" class="rounded-xl border border-slate-200 px-3 py-2 hover:bg-slate-50">Email</a>
+                <a id="resumeQuick" href="#" class="rounded-xl border border-slate-200 px-3 py-2 hover:bg-slate-50">Resume</a>
+                <a id="githubQuick" href="#" class="rounded-xl border border-slate-200 px-3 py-2 hover:bg-slate-50">GitHub</a>
+                <a id="linkedinQuick" href="#" class="rounded-xl border border-slate-200 px-3 py-2 hover:bg-slate-50">LinkedIn</a>
+              </div>
+              <p class="mt-3 text-xs text-slate-500">
+                Tip: Set your resume link in the “CONFIG” section below.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="border-t border-slate-200 bg-slate-50">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <div class="flex items-end justify-between gap-6">
+        <div>
+          <h2 class="text-2xl font-bold tracking-tight">Projects</h2>
+          <p class="mt-2 text-slate-600">Flagship work: architecture, reliability, and impact.</p>
+        </div>
+        <div class="hidden sm:flex items-center gap-2">
+          <button id="filterAll" class="rounded-xl bg-white px-3 py-2 text-sm font-semibold border border-slate-200 hover:bg-slate-100">All</button>
+          <button id="filterDE" class="rounded-xl bg-white px-3 py-2 text-sm font-semibold border border-slate-200 hover:bg-slate-100">Data</button>
+          <button id="filterFS" class="rounded-xl bg-white px-3 py-2 text-sm font-semibold border border-slate-200 hover:bg-slate-100">Full-stack</button>
+        </div>
+      </div>
+
+      <div id="projectGrid" class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Project cards injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="border-t border-slate-200 bg-white">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <h2 class="text-2xl font-bold tracking-tight">Skills</h2>
+      <p class="mt-2 text-slate-600">Tools I use to ship reliable systems.</p>
+
+      <div class="mt-8 grid gap-5 md:grid-cols-3">
+        <div class="rounded-2xl border border-slate-200 p-5">
+          <div class="font-semibold">Data Engineering</div>
+          <div class="mt-3 flex flex-wrap gap-2 text-sm">
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Python</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">SQL</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Apache Airflow</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">dbt</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">DuckDB</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Data modeling</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">dbt tests</span>
+          </div>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 p-5">
+          <div class="font-semibold">Backend / APIs</div>
+          <div class="mt-3 flex flex-wrap gap-2 text-sm">
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Node.js</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Express</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">REST APIs</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Auth (JWT)</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 p-5">
+          <div class="font-semibold">Cloud / DevOps</div>
+          <div class="mt-3 flex flex-wrap gap-2 text-sm">
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Docker</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">AWS (S3 / EC2 basics)</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">Git / GitHub</span>
+            <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1">CI/CD (basic)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="border-t border-slate-200 bg-slate-50">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <h2 class="text-2xl font-bold tracking-tight">Experience & Education</h2>
+      <p class="mt-2 text-slate-600">A quick snapshot recruiters scan.</p>
+
+      <div class="mt-8 grid gap-5 md:grid-cols-2">
+        <div class="rounded-2xl border border-slate-200 bg-white p-6">
+          <div class="text-sm font-semibold text-slate-500">EDUCATION</div>
+          <div class="mt-2 text-lg font-semibold">MS in Computer Science</div>
+          <div class="text-slate-600">Southeast Missouri State University (SEMO)</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700 list-disc pl-5">
+            <li>Projects focused on production-style pipelines and deployable web apps.</li>
+            <li>Interested in Data Engineering, Backend Development, and Cloud.</li>
+          </ul>
+        </div>
+
+        <div class="rounded-2xl border border-slate-200 bg-white p-6">
+          <div class="text-sm font-semibold text-slate-500">PROFESSIONAL</div>
+          <div class="mt-2 text-lg font-semibold">Software Experience (2 years)</div>
+          <div class="text-slate-600">Prior industry experience in India</div>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700 list-disc pl-5">
+            <li>Worked in structured team environments with deadlines and stakeholder coordination.</li>
+            <li>Now specializing toward modern DE stacks (Airflow/dbt) + backend systems.</li>
+          </ul>
+          <p class="mt-3 text-xs text-slate-500">
+            Replace with your exact title/company details if you want.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="border-t border-slate-200 bg-white">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <div class="grid gap-10 md:grid-cols-12">
+        <div class="md:col-span-7">
+          <h2 class="text-2xl font-bold tracking-tight">Contact</h2>
+          <p class="mt-2 text-slate-600">
+            Want to discuss an internship, a data engineering role, or a project? Email me — I respond fast.
+          </p>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a id="emailCTA" href="#" class="rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-slate-800">
+              Email me
+            </a>
+            <a id="linkedinCTA" href="#" class="rounded-xl border border-slate-300 px-4 py-2.5 text-sm font-semibold hover:bg-slate-50">
+              Message on LinkedIn
+            </a>
+          </div>
+
+          <div class="mt-8 rounded-2xl border border-slate-200 bg-slate-50 p-5 text-sm text-slate-700">
+            <div class="font-semibold">What I’m looking for</div>
+            <ul class="mt-2 list-disc pl-5 space-y-1">
+              <li>Data Engineering / Analytics Engineering internships (Airflow, dbt, SQL, Python)</li>
+              <li>Backend / Full-stack internships (Node.js, REST APIs, MongoDB/Postgres)</li>
+              <li>Teams that care about reliability, clean systems, and documentation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="md:col-span-5">
+          <div class="rounded-3xl border border-slate-200 p-6">
+            <div class="text-sm font-semibold text-slate-500">ONE-LINE PITCH</div>
+            <p class="mt-2 text-slate-800 leading-relaxed">
+              I build production-style pipelines and web apps with strong architecture,
+              automated checks, and clean docs — so teams can trust data and ship faster.
+            </p>
+
+            <div class="mt-6">
+              <div class="text-sm font-semibold text-slate-500">LOCATION</div>
+              <p class="mt-2 text-sm text-slate-700">United States • Open to Relocation / Remote</p>
+            </div>
+
+            <div class="mt-6">
+              <div class="text-sm font-semibold text-slate-500">DOWNLOAD</div>
+              <a id="resumeLinkCard" href="#" class="mt-2 inline-flex w-full justify-center rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-slate-800">
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mt-14 border-t border-slate-200 pt-6 text-sm text-slate-500 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
+        <div>© <span id="year"></span> Gowtham Sankar Sai</div>
+        <div class="flex gap-4">
+          <a id="githubFooter" class="hover:text-slate-800" href="#">GitHub</a>
+          <a id="linkedinFooter" class="hover:text-slate-800" href="#">LinkedIn</a>
+          <a href="#top" class="hover:text-slate-800">Back to top</a>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="modalOverlay" class="fixed inset-0 z-50 hidden items-end sm:items-center justify-center bg-black/50 p-4">
+    <div class="w-full max-w-2xl rounded-3xl bg-white shadow-xl border border-slate-200 overflow-hidden">
+      <div class="flex items-start justify-between gap-4 p-6 border-b border-slate-200">
+        <div>
+          <div id="modalTag" class="inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700"></div>
+          <h3 id="modalTitle" class="mt-2 text-xl font-bold"></h3>
+          <p id="modalSubtitle" class="mt-2 text-slate-600 text-sm"></p>
+        </div>
+        <button id="modalClose" class="rounded-xl border border-slate-200 px-3 py-2 text-sm font-semibold hover:bg-slate-50">Close</button>
+      </div>
+
+      <div class="p-6 space-y-6">
+        <div>
+          <div class="text-sm font-semibold text-slate-500">OVERVIEW</div>
+          <p id="modalOverview" class="mt-2 text-slate-800 leading-relaxed"></p>
+        </div>
+
+        <div>
+          <div class="text-sm font-semibold text-slate-500">ARCHITECTURE</div>
+          <div id="modalArchitecture" class="mt-2 rounded-2xl border border-slate-200 bg-slate-50 p-4 text-sm text-slate-700 whitespace-pre-wrap"></div>
+        </div>
+
+        <div>
+          <div class="text-sm font-semibold text-slate-500">HIGHLIGHTS</div>
+          <ul id="modalBullets" class="mt-2 list-disc pl-5 space-y-1 text-sm text-slate-700"></ul>
+        </div>
+
+        <div class="flex flex-wrap gap-2">
+          <a id="modalGithub" href="#" class="rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-slate-800">View code</a>
+          <a id="modalDemo" href="#" class="rounded-xl border border-slate-300 px-4 py-2.5 text-sm font-semibold hover:bg-slate-50">Live demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // =========================
+    // CONFIG (already filled)
+    // =========================
+    const CONFIG = {
+      name: "Gowtham Sankar Sai",
+      email: "gowthammdb7@gmail.com",
+      github: "https://github.com/GowthamU7",
+      linkedin: "https://www.linkedin.com/in/ugowthamss/",
+      resume: "#", // Put your resume link here (example: "resume.pdf" in same folder)
+    };
+
+    // =========================
+    // PROJECT DATA (edit freely)
+    // =========================
+    const PROJECTS = [
+      {
+        id: "wellness-pulse",
+        type: "data",
+        tag: "Data Engineering",
+        title: "Wellness Pulse — End-to-End Data Engineering Pipeline",
+        subtitle: "Airflow orchestration + dbt modeling + tests + Docker (no fluff)",
+        overview:
+          "A production-style analytics pipeline simulating a consumer health engagement platform. Generates raw events, loads to DuckDB, models staging → marts in dbt, and orchestrates everything with Airflow including retries and failure handling.",
+        architecture:
+`Python generators → Raw files (CSV/JSON)
+        ↓
+DuckDB (raw layer)
+        ↓
+dbt (staging → marts) + dbt tests
+        ↓
+Airflow orchestration (scheduling, retries, failure handling)
+        ↓
+Analytics tables (facts/dimensions) for engagement insights`,
+        bullets: [
+          "Generated and ingested raw user, content, and marketing event data using Python.",
+          "Modeled dimension + fact tables using dbt (staging → marts) for analytics-ready reporting.",
+          "Orchestrated the full workflow in Airflow with retries and failure handling.",
+          "Added automated data quality checks using dbt tests.",
+          "Containerized the pipeline using Docker for reproducible local runs."
+        ],
+        stack: ["Python", "SQL", "Airflow", "dbt", "DuckDB", "Docker"],
+        github: "#",
+        demo: "#",
+      },
+      {
+        id: "multiplayer-ttt",
+        type: "fullstack",
+        tag: "Full-Stack",
+        title: "Multiplayer Tic-Tac-Toe — Real-time Web App",
+        subtitle: "React + Node.js + MongoDB with lobby flow and server-authoritative rules",
+        overview:
+          "A real-time multiplayer Tic-Tac-Toe system with a lobby/matchmaking flow and persisted match history. Built as a recruiter-friendly full-stack project with clean APIs and scalable structure.",
+        architecture:
+`React client
+   ↓ (REST/WebSocket optional)
+Node.js + Express API
+   ↓
+MongoDB (users, matches, history)
+   ↓
+Server-authoritative game validation + state`,
+        bullets: [
+          "Built a responsive React UI for lobby + game board.",
+          "Implemented server-authoritative rules to prevent invalid moves.",
+          "Persisted match history and player stats in MongoDB.",
+          "Designed clean API routes for matches, sessions, and stats (extensible).",
+          "Structured repo with README, architecture, and run steps for recruiters."
+        ],
+        stack: ["React", "Node.js", "Express", "MongoDB"],
+        github: "#",
+        demo: "#",
+      },
+      {
+        id: "portfolio",
+        type: "fullstack",
+        tag: "Frontend",
+        title: "Portfolio Website — Tailwind CDN (No NPM)",
+        subtitle: "Single-file portfolio with projects, modal case studies, and clean UI",
+        overview:
+          "A simple, fast, recruiter-focused portfolio website that runs without any build tools. Includes project cards, a case-study modal, and sections designed to match DE + backend roles.",
+        architecture:
+`Static HTML + Tailwind CDN + small JS for data + modal
+Deploy: GitHub Pages / Netlify / Vercel`,
+        bullets: [
+          "Runs without npm — just open index.html.",
+          "Project data is driven by a JS array for quick updates.",
+          "Case-study modal shows architecture + highlights.",
+          "Responsive layout built for recruiter scanning."
+        ],
+        stack: ["HTML", "Tailwind (CDN)", "JavaScript"],
+        github: "#",
+        demo: "#",
+      },
+    ];
+
+    // =========================
+    // Helpers
+    // =========================
+    const $ = (id) => document.getElementById(id);
+
+    function setLink(id, href) {
+      const el = $(id);
+      if (!el) return;
+      el.href = href || "#";
+      if (href && href.startsWith("http")) el.target = "_blank";
+      el.rel = "noreferrer";
+    }
+
+    // Apply config links
+    setLink("githubLinkHero", CONFIG.github);
+    setLink("linkedinLinkHero", CONFIG.linkedin);
+
+    setLink("emailQuick", `mailto:${CONFIG.email}`);
+    setLink("resumeQuick", CONFIG.resume);
+    setLink("githubQuick", CONFIG.github);
+    setLink("linkedinQuick", CONFIG.linkedin);
+
+    setLink("emailCTA", `mailto:${CONFIG.email}`);
+    setLink("linkedinCTA", CONFIG.linkedin);
+
+    setLink("resumeLinkTop", CONFIG.resume);
+    setLink("resumeLinkCard", CONFIG.resume);
+
+    setLink("githubFooter", CONFIG.github);
+    setLink("linkedinFooter", CONFIG.linkedin);
+
+    $("year").textContent = new Date().getFullYear();
+
+    // =========================
+    // Render project cards
+    // =========================
+    const grid = $("projectGrid");
+
+    function badge(text) {
+      return `<span class="inline-flex items-center rounded-full border border-slate-200 bg-white px-2.5 py-1 text-xs font-semibold text-slate-700">${text}</span>`;
+    }
+
+    function renderProjects(filter = "all") {
+      grid.innerHTML = "";
+      const items = PROJECTS.filter(p => filter === "all" ? true : p.type === filter);
+
+      items.forEach((p) => {
+        const stackBadges = p.stack.slice(0, 4).map(badge).join("");
+        const card = document.createElement("div");
+        card.className = "rounded-2xl border border-slate-200 bg-white p-5 shadow-sm hover:shadow-md transition-shadow";
+
+        card.innerHTML = `
+          <div>
+            <div class="inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">${p.tag}</div>
+            <h3 class="mt-3 text-lg font-bold leading-snug">${p.title}</h3>
+            <p class="mt-2 text-sm text-slate-600">${p.subtitle}</p>
+          </div>
+
+          <div class="mt-4 flex flex-wrap gap-2">${stackBadges}</div>
+
+          <div class="mt-5 flex flex-wrap items-center gap-2">
+            <button data-open="${p.id}" class="rounded-xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-800">
+              Case study
+            </button>
+            <a class="rounded-xl border border-slate-300 px-4 py-2 text-sm font-semibold hover:bg-slate-50"
+               href="${p.github || "#"}" ${p.github && p.github.startsWith("http") ? 'target="_blank" rel="noreferrer"' : ""}>
+              Code
+            </a>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+
+      grid.querySelectorAll("button[data-open]").forEach(btn => {
+        btn.addEventListener("click", () => openModal(btn.getAttribute("data-open")));
+      });
+    }
+
+    renderProjects("all");
+
+    // Filters
+    function setActiveFilterButton(activeId) {
+      ["filterAll","filterDE","filterFS"].forEach(id => {
+        const el = $(id);
+        el.className = "rounded-xl bg-white px-3 py-2 text-sm font-semibold border border-slate-200 hover:bg-slate-100";
+      });
+      $(activeId).className = "rounded-xl bg-slate-900 px-3 py-2 text-sm font-semibold text-white border border-slate-900 hover:bg-slate-800";
+    }
+
+    $("filterAll").addEventListener("click", () => { renderProjects("all"); setActiveFilterButton("filterAll"); });
+    $("filterDE").addEventListener("click", () => { renderProjects("data"); setActiveFilterButton("filterDE"); });
+    $("filterFS").addEventListener("click", () => { renderProjects("fullstack"); setActiveFilterButton("filterFS"); });
+
+    // =========================
+    // Modal
+    // =========================
+    const overlay = $("modalOverlay");
+    const closeBtn = $("modalClose");
+
+    function openModal(projectId) {
+      const p = PROJECTS.find(x => x.id === projectId);
+      if (!p) return;
+
+      $("modalTag").textContent = p.tag;
+      $("modalTitle").textContent = p.title;
+      $("modalSubtitle").textContent = p.subtitle;
+      $("modalOverview").textContent = p.overview;
+      $("modalArchitecture").textContent = p.architecture;
+
+      const ul = $("modalBullets");
+      ul.innerHTML = "";
+      p.bullets.forEach(b => {
+        const li = document.createElement("li");
+        li.textContent = b;
+        ul.appendChild(li);
+      });
+
+      setLink("modalGithub", p.github || "#");
+      setLink("modalDemo", p.demo || "#");
+
+      overlay.classList.remove("hidden");
+      overlay.classList.add("flex");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeModal() {
+      overlay.classList.add("hidden");
+      overlay.classList.remove("flex");
+      document.body.style.overflow = "";
+    }
+
+    closeBtn.addEventListener("click", closeModal);
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) closeModal();
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !overlay.classList.contains("hidden")) closeModal();
+    });
+  </script>
+</body>
+</html>
