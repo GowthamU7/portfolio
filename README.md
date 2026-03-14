@@ -124,7 +124,7 @@ npm run build
 **Gowtham U**
 
 - 🌐 Portfolio: [portfolio-weld-iota-35.vercel.app](https://portfolio-weld-iota-35.vercel.app/)
-- 💼 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile) ← _replace with your URL_
+- 💼 LinkedIn:(https://www.linkedin.com/in/ugowthamss/)
 - 🐙 GitHub: [@GowthamU7](https://github.com/GowthamU7)
 
 ---
