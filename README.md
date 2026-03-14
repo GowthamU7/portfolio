@@ -2,6 +2,8 @@
 
 A modern, responsive personal portfolio website built with **React** and **Vite** — showcasing projects, skills, and experience.
 
+🌐 **Live Site:** [portfolio-weld-iota-35.vercel.app](https://portfolio-weld-iota-35.vercel.app/)
+
 ---
 
 ## 📸 Preview
@@ -17,6 +19,7 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 - 🎨 Clean, responsive UI with custom CSS
 - 📱 Mobile-friendly design
 - 🔍 ESLint configured for code quality
+- 🚀 Deployed on Vercel with automatic CI/CD
 
 ---
 
@@ -29,6 +32,7 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 | JavaScript (ES6+) | Core language |
 | CSS3 | Styling |
 | HTML5 | Markup |
+| [Vercel](https://vercel.com/) | Deployment |
 
 ---
 
@@ -94,17 +98,16 @@ portfolio/
 
 ## 🌐 Deployment
 
-To deploy the production build:
+This portfolio is deployed on **Vercel** with automatic deployments on every push to `main`.
+
+🔗 Live at: [portfolio-weld-iota-35.vercel.app](https://portfolio-weld-iota-35.vercel.app/)
+
+To build manually:
 
 ```bash
 npm run build
+# Output will be in the dist/ folder
 ```
-
-The output will be in the `dist/` folder, ready to be deployed on platforms like:
-
-- [Vercel](https://vercel.com/)
-- [Netlify](https://netlify.com/)
-- [GitHub Pages](https://pages.github.com/)
 
 ---
 
@@ -113,6 +116,7 @@ The output will be in the `dist/` folder, ready to be deployed on platforms like
 **Gowtham U**
 
 - GitHub: [@GowthamU7](https://github.com/GowthamU7)
+- Portfolio: [portfolio-weld-iota-35.vercel.app](https://portfolio-weld-iota-35.vercel.app/)
 
 ---
 
