@@ -8,7 +8,7 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 
 ## 📸 Preview
 
-
+![Portfolio Preview](https://raw.githubusercontent.com/GowthamU7/portfolio/main/public/project-media/Screenshot%202026-03-14%20133703.png)
 
 ---
 
@@ -20,6 +20,14 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 - 📱 Mobile-friendly design
 - 🔍 ESLint configured for code quality
 - 🚀 Deployed on Vercel with automatic CI/CD
+
+### 📄 Sections
+
+- **About Me** — Introduction and background
+- **Skills** — Tech stack and tools
+- **Projects** — Featured web app projects
+- **Experience** — Work history and achievements
+- **Contact** — Ways to get in touch
 
 ---
 
@@ -115,8 +123,9 @@ npm run build
 
 **Gowtham U**
 
-- GitHub: [@GowthamU7](https://github.com/GowthamU7)
-- Portfolio: [portfolio-weld-iota-35.vercel.app](https://portfolio-weld-iota-35.vercel.app/)
+- 🌐 Portfolio: [portfolio-weld-iota-35.vercel.app](https://portfolio-weld-iota-35.vercel.app/)
+- 💼 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile) ← _replace with your URL_
+- 🐙 GitHub: [@GowthamU7](https://github.com/GowthamU7)
 
 ---
 
