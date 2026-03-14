@@ -8,7 +8,7 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 
 ## 📸 Preview
 
-> _Add a screenshot or GIF of your portfolio here_
+
 
 ---
 
