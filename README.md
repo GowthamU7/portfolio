@@ -1,16 +1,121 @@
-# React + Vite
+# 🚀 Gowtham's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio website built with **React** and **Vite** — showcasing projects, skills, and experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+> _Add a screenshot or GIF of your portfolio here_
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Blazing-fast performance powered by Vite
+- ⚛️ Built with React (functional components & hooks)
+- 🎨 Clean, responsive UI with custom CSS
+- 📱 Mobile-friendly design
+- 🔍 ESLint configured for code quality
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| [React](https://react.dev/) | UI framework |
+| [Vite](https://vitejs.dev/) | Build tool & dev server |
+| JavaScript (ES6+) | Core language |
+| CSS3 | Styling |
+| HTML5 | Markup |
+
+---
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── public/             # Static assets
+├── src/                # Source files
+│   ├── components/     # Reusable React components
+│   ├── assets/         # Images, fonts, icons
+│   └── main.jsx        # App entry point
+├── index.html          # HTML template
+├── vite.config.js      # Vite configuration
+├── eslint.config.js    # ESLint configuration
+└── package.json        # Dependencies & scripts
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) v18 or higher
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/GowthamU7/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser** and navigate to `http://localhost:5173`
+
+---
+
+## 📦 Available Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start local development server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run ESLint checks |
+
+---
+
+## 🌐 Deployment
+
+To deploy the production build:
+
+```bash
+npm run build
+```
+
+The output will be in the `dist/` folder, ready to be deployed on platforms like:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+---
+
+## 📬 Contact
+
+**Gowtham U**
+
+- GitHub: [@GowthamU7](https://github.com/GowthamU7)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
